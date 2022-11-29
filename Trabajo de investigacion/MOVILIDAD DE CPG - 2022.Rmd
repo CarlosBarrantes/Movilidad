@@ -122,10 +122,10 @@ Base de datos P&G + https://simplemaps.com/data/us-cities
 
 ```{r}
 
-setwd("C:/Users/carlo/OneDrive/Maestria en Estadistica/II Ciclo 2022/Topicos de Estadistica Espacial Aplicada/Trabajo de investigacion")
+# setwd("C:/Users/carlo/OneDrive/Maestria en Estadistica/II Ciclo 2022/Topicos de Estadistica Espacial Aplicada/Trabajo de investigacion")
 
 
-base_datos <- read_xlsx("./Dataset - Proyecto.xlsx")
+base_datos <- read_xlsx("../Dataset - Proyecto.xlsx")
 
 
 base_datos <- base_datos[,-1]
